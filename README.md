@@ -24,3 +24,5 @@ Ctrl + C
 # Clase 9 - Repaso | Links | Imagenes
 
 ## Repasamos CSS y trabajamos con hipervinculos
+
+## Agregamos imagenes a nuestro archivo index.html
