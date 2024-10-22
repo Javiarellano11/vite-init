@@ -1,73 +1,43 @@
-/* CSS -> Hojas de estilo en cascada */
+/* "clases" en CSS se seleccionan anteponiendo el punto (.) */
+/*
+* Definir color por nombre -> red, blue, green, yellow, etc
+* Heyadecimal -> 0 a 15
+    Deca- 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+    Hexa- 0,1,2,3,4,5,6,7,8,9, A, B, C, D, E, F
+* Decimal -> 0 a 9
+*Binario -> 0 a 1
 
-/* Selector CSS de Etiqueta */
+*RGB
 
-/* h1, h2, p, strong, b, i */
+*/
 
-/* Regla CSS */
-
-/* etiqueta {
-    propiedad: valor1
-    propiedad valor2
-    propiedad valor3 
-}*/
-/* regla -> Rule */
-/* Declaracion -> declaration */
-/* {} -> LLAVES */
-/* [] -> corchetes */
-/* () -> Parentesis */
-
-h2 {
-    color: red; /* color  */
-    font-size: 30px; /* tamaño de la letra en pixeles */
-    text-align: center; /* alinear texto */
+.texto-rojo {
+    /* RED GREEN BLUE (RGB)
+       XX   XX    XX  (RGB)
+       color rojo: #FF0000
+       Color verde: #00FF00
+       color azul: #0100FF*/ /* 00F */
+       /* rgb (0, 0, 0) -> negro */ /*  * 0 apagada / 255 es completamente prendida */
+    color: red; 
 }
 
-p {
+.texto-derecha {
+    text-align: end;
+}
+
+.texto-izquierda {
+    text-align: start;
+}
+
+.texto-azul {
     color: blue;
-    font-size: 15px;
-    text-align: justify;    
 }
 
-h3 {
-    color: pink;
-    font-size: 30px;
-    text-align: right;
+.texto-centro {
+    text-align: center;
 }
-
-/* ! Clase o un id */
-
-/* id -> El id solo se puede usar una vez (no se puede usar en el mismo html)*/
-/* para seleccionar un id. Uso un numeral */
-
-#texto-especial {
-    color: orange;
-}
-
-#texto-super-especial {
-    color: violet;
-}
-
-/* Clase -> todas las veces que quiera dentro del mismo documento html */
-/* para seleccionar una clase se puede usar el punto (.) */
-
 
 .texto-verde {
     color: green;
 }
 
-.texto-dorado {
-    color: goldenrod;
-}
-
-.texto-rosa {
-    color: palevioletred;
-}
-
-.texto-grande {
-    font-size: 60px;
-}
-
-.texto-chico {
-    font-size: 10px;
-}

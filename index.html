@@ -2,37 +2,42 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Repaso - links (hipervinculos) - Imagenes</title>
   </head>
   <body>
-  <h1>Hola Mundo VITE</h1>
+  <h1>Repaso - links (hipervinculos) - Imagenes</h1>
   <hr>
 
-  <h2>Introducción a CSS</h2>
+  <h2>Repaso CSS</h2>
 
-  <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML</p>
+  <!-- p.texto-rojo.texto-derecha>lorem10 -->
+  <p class="texto-rojo texto-derecha">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, illo?</p>
 
-  <h3>Reglas CSS</h3>
+  <!-- p.texto-green.texto-izquierda>lorem20 -->
+  <p class="texto-verde texto-izquierda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit quidem hic quod dignissimos obcaecati ratione voluptatum sequi quibusdam quaerat.</p>
 
-  <code>
-    h3 {
-    color: pink;
-    }
-  </code>
+  <!-- p.texto-azul.texto-centro> -->
+  <p class="texto-azul texto-centro">Lorem ipsum dolor sit amet.</p>
 
-  <p class="texto-rosa texto-grande">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto, possimus vero nostrum veniam deserunt ipsa unde. Doloremque in eius quas dolorem suscipit delectus reiciendis facilis architecto perferendis, voluptas saepe.</p>
+  <h2>LINKS | Hipervinculos | Vinculos</h2>
+  <!-- los vinculos se crean con la etiqueta <a> que significa "anchor". Esta nos va a definir el hipervinculo, permite navegar a otra pagina, descargar o moverme dentro de la misma pagina -->
 
-  <!-- lorem -> 40 palabras -->
-  <!-- lorem10 -> texto de 10 palabras -->
-   <!-- p*4>lorem10 -> 4 parrafos de 10 palabras -->
-  
+    <!-- Links externos (se recomienda mucho usar el atributo target="_blank") -->
+    <!-- "_blank" me abre el sitio en una pestaña nueva -->
+    <!-- _self (se mantiene en la misma página) No se abre una nueva pestaña. Se pierde mi página -->
+    <a target="_blank" href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Link a wikipedia</a>
+    
+    <hr>
 
-  <p id="texto-especial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, tempora.</p> <!-- color de texto con ID -->
-  <p class="texto-verde texto-chico">Obcaecati autem error molestiae, deleniti amet eaque iure dicta hic.</p> <!-- color de texto con CLASE -->
-  <p class="texto-dorado texto-grande">Accusantium magni voluptatibus, fuga eligendi esse nisi facilis nesciunt velit.</p>
-  <p id="texto-super-especial">Hic, ut? Dolorum laudantium aspernatur sapiente deleniti tempore? Dolore, expedita.</p>
-  
+    <!-- Links internos (target="_self") (no hay que poner el "target" como en link externos) -->
+    <a href="contacto.html">Pagina Contacto</a>
+    <a href="Productos/heladera.html">Heladera</a>
+    <a href="Productos/pcs/desktop.html">Desktop</a>
+    <a href="Productos/pcs/notebook.html">Notebook</a>
+
+
+
+
     
     <script type="module" src="/main.js"></script>
   </body>
